@@ -1,16 +1,37 @@
-# React + Vite
+# 🎬 Movieflix
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Movieflix is a modern movie search application that allows users to discover movies, explore trending searches, and view detailed film information through a beautiful, responsive interface.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ✨ Features
 
-## React Compiler
+- **Movie Search** – Search for movies using the TMDB API with real-time results  
+- **Trending Movies** – View the most searched movies based on user activity  
+- **Debounced Search** – Optimized search with a 500ms debounce to reduce API calls  
+- **Responsive Design** – Clean, modern UI built with Tailwind CSS  
+- **Search Tracking** – Tracks and stores search history using Appwrite database  
+- **Movie Details** – Displays ratings, release year, language, and poster images  
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **Frontend:** React 19.2.0 + Vite 7.2.4  
+- **Styling:** Tailwind CSS 4.1.18  
+- **Backend:** Appwrite (Database & Authentication)  
+- **API:** The Movie Database (TMDB) API  
+- **Linting:** ESLint with React plugins  
+
+---
+
+## 📦 Prerequisites
+
+Make sure you have the following installed:
+
+- Node.js **v18 or higher**
+- npm or yarn
+- TMDB API key
+- Appwrite project credentials
+
+---
